@@ -1,0 +1,140 @@
+body{
+    font-family: sans-serif;
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+
+.mainform{
+    border: rgb(218, 220, 224) solid 1px;
+    padding: 50px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 448px;
+    border-radius: 8px;
+    margin-bottom: 24px;;
+}
+
+img{
+   width: 75px;
+   height: 24px; 
+}
+
+h1{
+    color: #202124;
+    font-size: 24px;
+    line-height: 1.3333;
+    padding-top: 16px;
+}
+
+h2{
+    color: #202124;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    padding-top: 8px;
+}
+
+.login-form{
+    height: 56px;
+    width: 368px;
+    border: 1px solid #dadce0;
+}
+
+#login-username{
+    font-size: 16px;
+    border: none;
+    text-align: left;
+    height: 56px;
+    width: 368px;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    margin-top: 32px;
+    padding-left:15px;
+    width: 348px;
+}
+
+.reminder{
+    font-size: 14px;
+    font-weight: bold;
+    color: #1a73e8;
+    text-decoration: none;
+    padding: 9px 0px 3px;
+    align-self: flex-start;
+
+}
+
+p{
+    color:#5f6368;
+    font-size: 14px;
+    line-height: 1.4286;
+    margin-top:40px;
+
+}
+
+.bottom-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px ;
+    width: 348px;
+
+}
+
+
+button{
+    height: 40px;
+    width: 81.25px;
+    color: white;
+    background-color: #1a73e8;
+    font-size: 14px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+button:hover{
+    background-color: #195fbb;
+    cursor: pointer;
+}
+
+.polish{
+    color:#202124;
+    font-size: 12px;
+    text-decoration: none;
+    align-self: flex-start;
+}
+
+.otherlinks{
+    color: rgb(117,117,117);
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 32px;
+
+
+}
+
+.links{
+    display: flex;
+    width: 448px;
+    justify-content: space-between;
+    
+}
+
+ul{
+    display: flex;
+    
+}
+
+
+
